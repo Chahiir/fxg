@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head><style>img.lazy{min-height:1px}</style><link rel="preload" href="https://skywarriorthemes.com/respawn/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+<head><style>img.lazy{min-height:1px}</style><link rel="preload" href="{{ asset('/js/lazyload.min.js') }}" as="script">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="pingback" href="https://skywarriorthemes.com/respawn/xmlrpc.php" />
+
 
     
     <script> var theplus_ajax_url = "https://skywarriorthemes.com/respawn/wp-admin/admin-ajax.php";</script>
@@ -30,12 +30,12 @@
 <link rel='dns-prefetch' href='//maps.googleapis.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
-<link rel="stylesheet" href="https://skywarriorthemes.com/respawn/wp-content/cache/minify/4d706.css" media="all" />
+<link rel="stylesheet" href="{{ asset('/css/4d706.css') }}" media="all" />
 
 
 
 <link rel='stylesheet' id='ls-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700%7CQuicksand:300,regular&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-<link rel="stylesheet" href="https://skywarriorthemes.com/respawn/wp-content/cache/minify/aedc4.css" media="all" />
+<link rel="stylesheet" href="{{ asset('/css/aedc4.css') }}" media="all" />
 
 
 
@@ -48,7 +48,7 @@
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
-<link rel="stylesheet" href="https://skywarriorthemes.com/respawn/wp-content/cache/minify/00377.css" media="all" />
+<link rel="stylesheet" href="{{ asset('/css/00377.css') }}" media="all" />
 
 
 
@@ -867,7 +867,7 @@ header.burger-menu .menuEffects{
             .elementor-shape-global{ z-index: 2; pointer-events: none;}
            
 </style>
-<link rel="stylesheet" href="https://skywarriorthemes.com/respawn/wp-content/cache/minify/7e38b.css" media="all" />
+<link rel="stylesheet" href="{{ asset('/css/7e38b.css') }}" media="all" />
 
 
 
@@ -931,13 +931,8 @@ var LS_Meta = {"v":"6.9.2"};
 <!--header position-->
 
 <body class="page-template page-template-tmp-homepage page-template-tmp-homepage-php page page-id-18 theme-respawn woocommerce-no-js mega-menu-header-menu    elementor-default elementor-kit-4 elementor-page elementor-page-18" >
-    <div class="se-pre-con">
-                                <div class="sk-folding-cube">
-                    <div class="sk-cube1 sk-cube"></div>
-                    <div class="sk-cube2 sk-cube"></div>
-                    <div class="sk-cube4 sk-cube"></div>
-                    <div class="sk-cube3 sk-cube"></div>
-                </div>
+    <div class="se-pre-con " >
+                            <center>    <img style='width:350px;padding-top:250px'  src="{{ asset('img/logo_fxg.png') }}" alt=""></center>
                 
 
     </div>
@@ -950,10 +945,10 @@ var LS_Meta = {"v":"6.9.2"};
         <div class="header-bottom">
             <div class="container">
                                 
-                <div class="hlogo">
+                <div  class="hlogo">
                     <div class="hlogoinner">
-                        <a href="https://skywarriorthemes.com/respawn/">
-                            <img class="lazy" alt="Respawn" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://skywarriorthemes.com/respawn/wp-content/themes/respawn/assets/img/logo-main.png" />
+                        <a href="/">
+                            <img class="lazy" alt="FXG"  src="" data-src="{{ asset('img/logo_fxg.png') }}" />
 
                             
                             <img class="fixed_header_logo lazy" alt="Respawn" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://skywarriorthemes.com/respawn/wp-content/themes/respawn/assets/img/logo-main.png" />
@@ -1711,7 +1706,7 @@ var LS_Meta = {"v":"6.9.2"};
 								</div>
 					</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-2054d49 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2054d49" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=ohqzWIul0OQ&quot;,&quot;background_video_end&quot;:29}">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2054d49 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2054d49" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=JVgQ_VoKU38&quot;,&quot;background_video_end&quot;:29}">
 								<div class="elementor-background-video-container elementor-hidden-phone">
 													<div class="elementor-background-video-embed"></div>
 												</div>
@@ -2605,41 +2600,7 @@ var LS_Meta = {"v":"6.9.2"};
 								</div>
 					</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0b2b208 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0b2b208" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-							<div class="elementor-row">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d1c013" data-id="3d1c013" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-						<div class="elementor-element elementor-element-f1e8cd8 elementor-invisible elementor-widget elementor-widget-heading" data-id="f1e8cd8" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">What are you waiting for?</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-433a051 elementor-invisible elementor-widget elementor-widget-heading" data-id="433a051" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Get respawn today</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-4417b3e elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="4417b3e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="https://themeforest.net/cart/configure_before_adding/23481085?license=regular&#038;ref=phpbits&#038;size=source&#038;support=bundle_12month&#038;_ga=2.249966978.505095272.1552861699-1154562657.1498755057" target="_blank" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-float" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
-									<i class="fa fa-star" aria-hidden="true"></i>
-							</span>
-						<span class="elementor-button-text">Purchase for only 59$</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-						</div>
-					</div>
-		</div>
-								</div>
-					</div>
-		</section>
+				
 						</div>
 						</div>
 					</div>
